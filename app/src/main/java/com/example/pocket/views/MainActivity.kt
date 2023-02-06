@@ -36,7 +36,7 @@ class MainActivity : AppCompatActivity() {
                 }
 
                 R.id.settingSec -> {
-                    Toast.makeText(this, "settings", Toast.LENGTH_SHORT).show()
+                    
                 }
 
                 R.id.aboutusSec -> {
