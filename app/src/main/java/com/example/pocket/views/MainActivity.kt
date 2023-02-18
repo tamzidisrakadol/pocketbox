@@ -36,7 +36,6 @@ class MainActivity : AppCompatActivity() {
                 }
 
                 R.id.settingSec -> {
-                    
                 }
 
                 R.id.aboutusSec -> {
@@ -50,11 +49,6 @@ class MainActivity : AppCompatActivity() {
             }
             true
         }
-
-
-        val navController = findNavController(R.id.fragmentContainerView)
-        binding.btmNav.setupWithNavController(navController)
-
 
 
     }

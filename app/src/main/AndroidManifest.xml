@@ -15,9 +15,7 @@
         <activity
             android:name=".views.AboutUsActivity"
             android:exported="false" />
-        <activity
-            android:name=".views.SearchAndAddCarActivity"
-            android:exported="false" />
+
         <activity
             android:name=".views.ProfileActivity"
             android:exported="false"
