@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <item
-        android:id="@+id/garageFragment"
-        android:title="Garage"
-        android:icon="@drawable/sedan"/>
 
-
-    <item android:id="@+id/documentFragment"
-        android:title="Document"
-        android:icon="@drawable/document"/>
-
-    <item android:id="@+id/taskFragment"
-        android:title="Task"
-        android:icon="@drawable/todo"/>
 
 
 
