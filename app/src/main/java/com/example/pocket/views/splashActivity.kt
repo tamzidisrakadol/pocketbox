@@ -31,13 +31,13 @@ class splashActivity : AppCompatActivity() {
     private lateinit var firebaseAuth: FirebaseAuth
     private lateinit var googleSignInClient:GoogleSignInClient
     private lateinit var mProgressDialog: ProgressDialog
-    private lateinit var auth: FirebaseAuth
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivitySplashBinding.inflate(layoutInflater)
         setContentView(binding.root)
-        auth = Firebase.auth
+
         firebaseAuth = FirebaseAuth.getInstance()
         mProgressDialog = ProgressDialog(this)
         mProgressDialog.setTitle("Logging in")

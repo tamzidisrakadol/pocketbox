@@ -56,6 +56,13 @@ class MainActivity : AppCompatActivity() {
         }
 
 
+        //floatBtn
+        binding.addBtn.setOnClickListener {
+            val intent = Intent(this,AddStatusActivity::class.java)
+            startActivity(intent)
+        }
+
+
     }
 
 
